@@ -1,0 +1,32 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: #121212;
+    border-radius: 4px;
+    color: white;
+}
+
+div{
+    width: 400px;
+    height: 400px;
+    background-color: lightseagreen;
+    flex-wrap: wrap;
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    justify-content: center;
+}
+
+.winning-box {
+    background-color: white;
+    color: lightseagreen;
+    font-size: 40px;
+}
